@@ -15,7 +15,8 @@ export default function Hero() {
         <h1
           className={`${sora.className} font-semibold text-5xl md:text-6xl text-[#edf2f4] max-w-5xl leading-tight mb-6`}
         >
-          10x your LinkedIn output without sounding like everyone else.
+          <span className="text-[#ef233c]">10x your LinkedIn output</span>{" "}
+          without sounding like everyone else.
         </h1>
         <p className="text-lg md:text-xl text-[#8d99ae] max-w-2xl mb-10">
           Thrash learns your tone from one post and writes the rest. No ChatGPT

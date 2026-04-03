@@ -18,9 +18,9 @@ export default function Hero() {
           <span className="text-[#ef233c]">10x your LinkedIn output</span>{" "}
           without sounding like everyone else.
         </h1>
-        <p className="text-lg md:text-xl text-[#8d99ae] max-w-2xl mb-10">
+        <p className="text-lg md:text-xl text-[#8d99ae] text-balance max-w-2xl mb-10">
           Thrash learns your tone from one post and writes the rest. No ChatGPT
-          slop. No generic hooks. Just your voice, multiplied.
+          tone and the same BS anymore.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <button className="bg-[#ef233c] text-[#edf2f4] font-semibold px-8 py-4 rounded-full hover:bg-[#d90429] transition">

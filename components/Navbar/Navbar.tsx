@@ -11,7 +11,7 @@ interface MenuItem {
 const MENU_ITEMS: MenuItem[] = [
   { label: "Features", href: "#features" },
   { label: "Pricing", href: "#pricing" },
-  { label: "Customers", href: "#customers" },
+  { label: "Testimonials", href: "#testimonials" },
   { label: "Sign In", href: "#signin" },
 ];
 

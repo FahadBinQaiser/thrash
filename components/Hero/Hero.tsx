@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex h-screen pt-20 bg-[#2b2d42] w-full items-center justify-center"
+      className="relative flex h-screen pt-20 bg-[#38040e] w-full items-center justify-center"
     >
       <div
         className={`${sora.className} font-normal relative z-10 flex flex-col items-center text-center px-4`}

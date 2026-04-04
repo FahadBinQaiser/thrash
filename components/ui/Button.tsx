@@ -19,7 +19,7 @@ export default function Button({ label, variant, onClick }: ButtonProps) {
   return (
     <button
       onClick={onClick}
-      className="border-5 border-[#edf2f4] cursor-pointer text-[#edf2f4] px-8 py-4 rounded-full hover:bg-[#8d99ae]/10 transition"
+      className="border-2 border-[#edf2f4] cursor-pointer text-[#edf2f4] px-8 py-4 rounded-full hover:bg-[#8d99ae]/10 transition"
     >
       {label}
     </button>

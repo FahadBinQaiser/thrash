@@ -18,15 +18,15 @@ const MENU_ITEMS: MenuItem[] = [
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const linkClass =
-    "text-sm font-medium text-white hover:text-gray-300 transition-colors";
+    "text-sm font-medium text-[#ffcccc] hover:text-[#ffcccc]/80 transition-colors";
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 px-4 py-6">
       <div
         className={`${sora.className} mx-auto flex max-w-5xl items-center justify-between`}
       >
-        <div className="flex items-center gap-20">
-          <div className="text-2xl font-bold text-white">Thrash</div>
+        <div className="flex items-center gap-10">
+          <div className="text-2xl font-bold text-[#ffcccc]">Thrash</div>
 
           <div className="hidden md:flex items-center gap-8">
             {MENU_ITEMS.slice(0, 3).map((item) => (
@@ -38,16 +38,16 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-3">
-          <button className="hidden cursor-pointer sm:block text-sm font-semibold text-white hover:text-gray-300 transition-colors">
+          <button className="hidden cursor-pointer sm:block text-sm font-semibold text-[#ffcccc] hover:text-[#ffcccc]/80 transition-colors">
             Sign In
           </button>
-          <button className="rounded-full cursor-pointer border border-white/20 bg-white/10 backdrop-blur-sm px-5 py-2 text-sm font-semibold text-white hover:bg-white/20 transition-colors">
+          <button className="rounded-full cursor-pointer border border-[#ffcccc]/20 bg-[#ffcccc]/10 backdrop-blur-sm px-5 py-2 text-sm font-semibold text-[#ffcccc] hover:bg-[#ffcccc]/20 transition-colors">
             See how it works
           </button>
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden cursor-pointer text-white"
+            className="md:hidden cursor-pointer text-[#ffcccc]"
           >
             <svg
               className="h-6 w-6"
@@ -67,7 +67,7 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`md:hidden mt-4 overflow-hidden rounded-lg border border-white/20 bg-white/10 backdrop-blur-sm transition-all duration-300 ${
+        className={`md:hidden mt-4 overflow-hidden rounded-lg border border-[#ffcccc]/20 bg-[#ffcccc]/10 backdrop-blur-sm transition-all duration-300 ${
           isOpen ? "max-h-96 opacity-100 p-4" : "max-h-0 opacity-0 p-0"
         }`}
       >

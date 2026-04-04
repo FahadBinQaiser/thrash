@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 px-4 py-6">
       <div
-        className={`${sora.className} mx-auto flex max-w-5xl items-center justify-between`}
+        className={`${sora.className} mx-auto flex max-w-3xl items-center justify-between`}
       >
         <div className="flex items-center gap-10">
           <div className="text-2xl font-bold text-[#ffcccc]">Thrash</div>

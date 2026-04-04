@@ -14,7 +14,7 @@ export default function Hero() {
           For Personal Branding Strategist and Content Creators
         </p>
         <h1
-          className={`${sora.className} font-semibold text-5xl text-[#ffcccc] max-w-5xl leading-tight mb-6`}
+          className={`${sora.className} font-semibold text-4xl md:text-5xl text-[#ffcccc] max-w-5xl leading-tight mb-6`}
         >
           <span className="text-[#ef233c]">10x your LinkedIn output</span>{" "}
           without sounding like everyone else.

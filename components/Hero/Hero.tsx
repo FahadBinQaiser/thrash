@@ -1,5 +1,6 @@
 import { sora } from "@/lib/fonts";
 import Button from "@/components/ui/Button";
+import BottomGlow from "@/components/ui/bottomGlow";
 
 export default function Hero() {
   return (
@@ -7,11 +8,12 @@ export default function Hero() {
       id="hero"
       className="relative flex h-screen pt-20 bg-[#38040e] w-full items-center justify-center"
     >
+      <BottomGlow />
       <div
         className={`${sora.className} font-normal text-balance relative z-10 flex flex-col items-center text-center px-4`}
       >
         <p className="text-sm tracking-widest text-[#ffcccc] mb-2">
-          For Personal Branding Strategist and Content Creators
+          For Personal Branding Strategists and Content Creators
         </p>
         <h1
           className={`${sora.className} font-semibold text-4xl md:text-5xl text-[#ffcccc] max-w-5xl leading-tight mb-6`}

@@ -1,7 +1,7 @@
 "use client";
 
 import { sora } from "@/lib/fonts";
-import React, { useState } from "react";
+import { useState } from "react";
 
 interface MenuItem {
   label: string;
